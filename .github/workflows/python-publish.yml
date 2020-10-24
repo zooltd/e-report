@@ -27,7 +27,7 @@ jobs:
         pip install requests lxml
     - name: Build and publish
       env:
-        USERNAME: ${{ secrets.PYPI_USERNAME }}
-        PASSWORD: ${{ secrets.PYPI_PASSWORD }}
+        USERNAME: ${{ secrets.USERNAME }}
+        PASSWORD: ${{ secrets.PASSWORD }}
       run: |
         python e-report.py
