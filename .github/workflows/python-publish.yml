@@ -9,6 +9,7 @@ on:
   push:
   schedule:
     - cron: '0 2 * * *'
+    - cron: '40 2 * * *'
 
 jobs:
   deploy:
