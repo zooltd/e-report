@@ -8,8 +8,8 @@ on:
     types: [created]
   push:
   schedule:
+    - cron: '0 0 * * *'
     - cron: '0 2 * * *'
-
 jobs:
   deploy:
 
